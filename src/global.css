@@ -1,0 +1,35 @@
+:root {
+  --white: #fff;
+  --gray-300: #d9d9d9;
+  --green-300: #00b37e;
+  --green-500: #0d5a1f;
+  --dark: #000;
+  --fz-22: 1.375rem;
+  --fz-30: 1.875rem;
+}
+
+:focus {
+  outline: transparent;
+  box-shadow: 0 0 0 2px var(--green-300);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: var(--white);
+  color: var(--green-300);
+  -webkit-font-smoothing: antialiased;
+}
+
+body,
+input,
+textarea,
+button {
+  font-family: 'Inter', sans-serif;
+  font-weight: 400;
+  font-size: 1rem; /*  16px */
+}

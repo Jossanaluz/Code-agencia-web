@@ -1,0 +1,25 @@
+.container {
+  max-width: 62.2rem; /* 1120/16 */
+  margin: 0 auto;
+  padding: 5.625rem 1rem;
+  display: grid;
+  grid-template-columns: 256px 1fr; /* 1 largura fixa e 2 flexivel a tela */
+  gap: 3rem;
+  align-items: center; /* alinhados ao topo*/
+}
+.container h1 {
+  color: var(--green-500);
+  font-size: var(--fz-22);
+}
+.container p {
+  color: var(--green-500);
+}
+@media (max-width: 768px) {
+  html {
+    font-size: 87.5%;
+  }
+
+  .container {
+    grid-template-columns: 1fr;
+  }
+}

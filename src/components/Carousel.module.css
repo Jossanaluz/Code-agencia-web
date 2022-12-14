@@ -1,0 +1,14 @@
+.box {
+  max-width: 300px;
+  max-height: 300px;
+}
+.box img {
+  width: 300px;
+  height: 300px;
+}
+
+@media (max-width: 800px) {
+  .box {
+    max-width: 250px;
+  }
+}

@@ -1,0 +1,91 @@
+.container {
+  background: var(--green-500);
+  width: 100%;
+  position: relative;
+  min-height: 494px;
+}
+.container p {
+  font-size: var(--fz-30);
+  color: var(--white);
+  text-align: center;
+  padding-top: 50px;
+}
+.container .separador {
+  background: var(--white);
+  width: 4.375rem;
+  height: 3px;
+  margin: auto;
+  margin-top: 1rem;
+}
+.container_box {
+  position: absolute;
+  top: 75%;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%);
+  background: var(--white);
+  padding: 1rem 8rem;
+  box-shadow: 0px 13px 16px -3px rgba(0, 0, 0, 0.1);
+}
+form .form_group {
+  margin: 12px 0;
+  display: flex;
+  flex-direction: column;
+}
+form label {
+  color: var(--dark);
+  margin-right: 0.5rem;
+  margin-bottom: 5px;
+}
+form input {
+  background: var(--gray-300);
+  border: none;
+  width: 500px;
+  height: 30px;
+  padding: 0.5rem;
+}
+form textarea {
+  background: var(--gray-300);
+  border: none;
+  height: 80px;
+  line-height: 1rem;
+  padding: 0.5rem;
+}
+form button {
+  background: var(--green-500);
+  color: var(--white);
+  border: none;
+  padding: 3px 65px;
+  display: flex;
+  margin: 0 auto;
+  cursor: pointer;
+  margin-top: 1rem;
+}
+button:is(:hover, :focus) {
+  background-color: var(--green-500);
+  outline: 2px solid var(--green-500);
+  outline-offset: 2px;
+}
+
+.copyrhte {
+  background: var(--green-500);
+  color: var(--white);
+  font-size: 0.875rem;
+  text-align: center;
+  padding: 0.5rem 0;
+  margin-top: 12%;
+}
+
+@media (max-width: 768px) {
+  .container_box {
+    max-width: 100%;
+    padding: 2rem;
+  }
+  form input {
+    max-width: 100%;
+  }
+
+  .copyrhte {
+    margin-top: 50%;
+  }
+}
