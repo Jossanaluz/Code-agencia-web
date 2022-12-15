@@ -65,32 +65,30 @@ export function Carousel() {
           <img src="/sips.png" alt="" />
         </a>
         <a href='#' className={styles.box}>
-          <img src="/box01.png" alt="" />
+          <img src="/avisulat.png" alt="" />
         </a>
         <a href='#' className={styles.box}>
-          <img src="/box01.png" alt="" />
+          <img src="/orion.png" alt="" />
         </a>
         <a href='#' className={styles.box}>
           <img src="/zainna.png" alt="" />
         </a>
         <a href='#' className={styles.box}>
-          <img src="/box01.png" alt="" />
+          <img src="/frederes.png" alt="" />
         </a>
         <a href='#' className={styles.box}>
-          <img src="/box01.png" alt="" />
+          <img src="/idh.png" alt="" />
         </a>
-        <div style={{ width: 300, height: 300, background: '#ffe4e1' }}>
-          slide 6
-        </div>
-        <div style={{ width: 300, height: 300, background: '#008080' }}>
-          slide 7
-        </div>
-        <div style={{ width: 300, height: 300, background: '#ff0000' }}>
-          slide 8
-        </div>
-        <div style={{ width: 300, height: 300, background: '#e6e6fa' }}>
-          slide 9
-        </div>
+        <a href='#' className={styles.box}>
+          <img src="/genio_ead.png" alt="" />
+        </a>
+        <a href='#' className={styles.box}>
+          <img src="/mascote_classicos.png" alt="" />
+        </a>
+        <a href='#' className={styles.box}>
+          <img src="/stipampa.png" alt="" />
+        </a>
+
       </ReactSimplyCarousel>
     </div >
   );

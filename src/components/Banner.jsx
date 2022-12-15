@@ -8,11 +8,13 @@ export function Banner() {
 
   return (
     <div ref={sliderRef} className="keen-slider">
-      <div className="keen-slider__slide number-slide1">
+      <div className="keen-slider__slide number-slide">
         <img src="/public/banner2.png" alt="" />
       </div>
-      <div className="keen-slider__slide number-slide2">2</div>
-      <div className="keen-slider__slide number-slide3">3</div>
+      <div className="keen-slider__slide number-slide">
+        <img src="/public/banner3.png" alt="" />
+      </div>
+      {/* <div className="keen-slider__slide number-slide3">3</div>  */}
     </div>
   )
 }
